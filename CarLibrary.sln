@@ -9,6 +9,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VisualBasicCarClient", "Vis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCarClient", "CSharpCarClient\CSharpCarClient.csproj", "{FE5BDDE4-2BC8-4A05-B44A-11DF6992A883}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalAssemblyReflector", "ExternalAssemblyReflector.\ExternalAssemblyReflector.csproj", "{336BB2EA-912B-45EC-9C4D-370ED1FAB8C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LateBindingApp", "LateBindingApp\LateBindingApp.csproj", "{4F7A8634-867C-4A0E-B546-D6CAABB5D8B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{FE5BDDE4-2BC8-4A05-B44A-11DF6992A883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE5BDDE4-2BC8-4A05-B44A-11DF6992A883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE5BDDE4-2BC8-4A05-B44A-11DF6992A883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336BB2EA-912B-45EC-9C4D-370ED1FAB8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336BB2EA-912B-45EC-9C4D-370ED1FAB8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336BB2EA-912B-45EC-9C4D-370ED1FAB8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336BB2EA-912B-45EC-9C4D-370ED1FAB8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7A8634-867C-4A0E-B546-D6CAABB5D8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7A8634-867C-4A0E-B546-D6CAABB5D8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7A8634-867C-4A0E-B546-D6CAABB5D8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7A8634-867C-4A0E-B546-D6CAABB5D8B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
