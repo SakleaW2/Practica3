@@ -1,15 +1,13 @@
 ﻿Imports CarLibrary
 Module Module1
     Sub Main()
-        'Console.WriteLine("***** VB CarLibrary Client App *****")
+        Console.WriteLine("***** VB CarLibrary Client App *****")
         '' Локальные переменные объявляются с помощью ключевого слова Dim.
-        'Dim myMiniVan As New MiniVan()
-        'myMiniVan.TurboBoost()
-        'Dim mySportsCar As New SportsCar()
-        'mySportsCar.TurboBoost()
-        'Console.ReadLine()
-
-
+        Dim myMiniVan As New MiniVan()
+        myMiniVan.TurboBoost()
+        Dim mySportsCar As New SportsCar()
+        mySportsCar.TurboBoost()
+        Console.ReadLine()
         Dim dreamCar As New PerformanceCar()
         ' Использование унаследованного свойства.
         dreamCar.PetName = "Hank"

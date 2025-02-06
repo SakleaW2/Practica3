@@ -47,6 +47,21 @@ namespace LateBindingApp
             {
                 Console.WriteLine(ex.Message);
             }
+            try
+            {
+                // Сначала получим метаданные для типа SportsCar.
+                Type sport = asm.GetType("CarLibrary.SportsCar");
+                // Затем создадим экземпляр типа SportsCar динамически.
+                object obj = Activator.CreateInstance(sport);
+                // Вызов метода TurnOnRadio() с аргументами.
+                MethodInfo mi = sport.GetMethod("TurnOnRadio");
+                mi.Invoke(obj, new object[] { true, 2 });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
         }
     }
 }
